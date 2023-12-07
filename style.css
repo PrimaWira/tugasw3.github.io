@@ -1,0 +1,865 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #D9EEE1;
+}
+
+.containerNavbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 66px;
+    width: 100%;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    margin-right: 15px;
+}
+
+.containerNavbar.navbar{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li{
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;align-items: center;
+    position: relative;
+    bottom: 10px;
+    height: 50px;
+}
+
+.containerNavbar.navbar .menu{
+    display: flex;
+}
+
+.menu{
+    height: 64px;
+    position: relative;
+    bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    flex-direction: row;
+}
+
+.menu li:hover{
+    background-color: rgb(10, 183, 10);
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:hover a{
+    color: white;
+}
+
+.containerNavbar .search{
+    margin: 10px;
+    height: 25px;
+    width: 135px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ling{
+    margin-left: 10px;
+}
+
+.containerNavbar.navbar2{
+    display: flex;
+}
+
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 5px;
+    margin-right: 20px;
+}
+
+.containerNavbar .navbar2 .menu2{
+    display: flex;
+}
+
+.navbar2 ul li{
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.menu2 li:hover{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+span{
+    color: rgb(190, 86, 255);
+}
+
+input{
+    border: none;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.containerNavbar .navbar2 .menu3{
+    display: flex;
+}    
+
+.menu3{
+    display: flex;
+    width: 160px;
+    align-items: center;
+    background-color: rgba(6, 164, 6, 0.307);
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 15px;
+}    
+
+.menu3:hover{
+    background-color: rgb(10, 183, 10);
+    color: white;
+}
+
+.sign{
+    background-color: rgb(6, 164, 6);
+    height: 23px;
+    width: 80px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}    
+
+.signUp{
+    background-color: rgb(10, 183, 10);
+    width: 90px;
+    height: 45px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.signUp a{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+}    
+
+.menu3 a{
+    display: inline-block;
+    margin-left: 10px;
+}    
+
+.menu3:hover a{
+    color: white;
+}        
+
+.containerNavbar2{
+    background-color: #282a36;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper1 .menu-nav{
+    height: 20px;
+    align-items: center;
+    width: 1330px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 11px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu-nav a{
+    color: white;
+}
+.menu-nav a:hover{
+    color: white;
+    background-color: black;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.home .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-image: url(backg.gif);
+}
+
+.home h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 200px;
+    position: relative;
+    top: 100px;
+}
+
+.home p {
+    color: rgb(240, 240, 166);
+    font-size: 21px;
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+.home-search {
+    background-color: rgb(60, 170, 110);
+    width: 500PX;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+
+.home-search i {
+    height: 50px;
+    width: 75px;
+    font-size: 18px;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.home-search input {
+    height: 40px;
+    width: 400px;
+    right: 10px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 16px;
+    position: relative;
+    bottom: 2px;
+}
+
+.home a {
+    display: block;
+    color: white;
+    font-size: 22px;
+    font-weight: 550;
+    margin: 30px 0px;
+    text-decoration-line: underline;
+    position: relative;
+    top: 140px;
+}
+
+.home a:hover {
+    color: rgb(240, 240, 166);
+}
+
+.container img{
+    position: relative;
+    bottom: 120px;
+    margin-left: 1000px;
+    display: flex;
+    width: 160px;
+    height: 190px;
+}
+
+@media all and (min-width:800px) {
+    .home h1 {
+        font-size: 70px;
+        font-weight: 700px;
+        margin: 2px 0 -20px 0 !important;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .home p {
+        font-size: 25px;
+    }
+}
+
+.home-html{
+    background-color: #D9EEE1;
+}
+.home-html .html{
+    align-items: center;
+
+}
+
+.home-html .html{
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.button-html h1{
+    margin-top: -30px;
+    font-size: 90px;
+    margin-bottom: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-html p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-html .html .button-html{
+    position: relative;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-html .html .button-html button{
+    padding: 12px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home-html .html .button-html button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.code-html h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-html .html .code-html{
+    position: relative;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.home-html .html .code-html button{
+    padding: 13px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.home-html .html .code-html button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.home-html .code-html .html-code{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: #D9EEE1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.code-example img{
+    width: 310px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+}
+
+.home-css{
+    background-color: rgb(240, 240, 166);
+}
+.home-css .css{
+    align-items: center;
+    margin-left: 175px;
+
+}
+
+.home-css .css{
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.button-css h1{
+    margin-top: -30px;
+    font-size: 90px;
+    margin-bottom: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-css p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-css .css .button-css{
+    position: relative;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-css .css .button-css button{
+    padding: 12px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home-css .css .button-css button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.code-css h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-css .css .code-css{
+    position: relative;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.home-css .css .code-css button{
+    padding: 13px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.home-css .css .code-css button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.home-css .code-css .css-code{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: #D9EEE1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.home-js{
+    background-color: black;
+}
+.home-js .js{
+    align-items: center;
+    margin-left: 175px;
+
+}
+
+.home-js .js{
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.button-js h1{
+    margin-top: -30px;
+    font-size: 60px;
+    color: white;
+    margin-bottom: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-js p{
+    font-size: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-js .js .button-js{
+    position: relative;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-js .js .button-js button{
+    padding: 12px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home-css .css .button-css button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.code-js h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-js .js .code-js{
+    position: relative;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.home-js .js .code-js button{
+    padding: 13px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.home-js .js .code-js button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.home-js .code-js .js-code{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: #D9EEE1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+footer{
+    background-color: rgb(37, 37, 43);
+    bottom: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .mainFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF4A3;
+}
+
+footer .mainFooter h4 a{
+    color: inherit;
+}
+
+footer .mainFooter img{
+    width: 60px;
+}
+
+footer .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 70px;
+    font-size: 10px;
+    color: white;
+
+}
+
+footer .containerFooter{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+footer .text{
+    color: white;
+    font-size: 10px;
+}
+
+.home-html{
+    justify-content: center;
+    display: flex;
+}
+
+.home-ular{
+    background-color: white;
+}
+.home-ular .ular{
+    align-items: center;
+    margin-left: 175px;
+
+}
+
+.home-ular .ular{
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.button-ular h1{
+    margin-top: -30px;
+    font-size: 90px;
+    margin-bottom: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-ular p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-ular .ular .button-ular{
+    position: relative;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-ular .ular .button-ular button{
+    padding: 12px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home-ular .ular .button-ular button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.code-ular h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-ular .ular .code-ular{
+    position: relative;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.home-ular .ular .code-ular button{
+    padding: 13px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.home-ular .ular .code-ular button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.home-ular .code-ular .ular-code{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: #D9EEE1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+.home-sql{
+    background-color: #96D4D4;
+}
+.home-sql .sql{
+    align-items: center;
+    margin-left: 175px;
+
+}
+
+.home-sql .sql{
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.button-sql h1{
+    margin-top: -30px;
+    font-size: 80px;
+    margin-bottom: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-sql p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-sql .sql .button-sql{
+    position: relative;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-sql .sql .button-sql button{
+    padding: 12px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home-sql .sql .button-sql button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.code-sql h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-sql .sql .code-sql{
+    position: relative;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.home-sql .sql .code-sql button{
+    padding: 13px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.home-sql .sql .code-sql button:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.03);
+}
+
+.home-sql .code-sql .sql-code{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: #D9EEE1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.idcard .subKonten{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.idcard .subKonten .card{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.idcard .subKonten .card h1{
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+.idcard .subKonten .card p{
+    margin-bottom: 40px;
+    text-align: center ;
+}
+
+.idcard .subKonten .card button{
+    height: 43px;
+    width: 180px;
+    border: none;
+    border-radius: 360px;
+    color: white;
+    background-color: rgb(37, 37, 43);
+    cursor: pointer;
+}
+
+.idcard .subKonten .card button:hover{
+    background-color: rgb(10, 10, 11);
+}
